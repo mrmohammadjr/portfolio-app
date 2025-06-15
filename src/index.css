@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("./font/LibreFranklin-Regular.ttf");
+}
+@font-face {
+  font-family: sourceCode;
+  src: url("./font/SourceCodePro-Medium.ttf");
+}
+.frank {
+  font-family: myFirstFont;
+}
+.source {
+  font-family: sourceCode;
+}
+body {
+  background-color: black;
+}
+
+.infoLight {
+  background: url("./media/lightBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.infoDark {
+  background: url("./media/darkBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 700px) {
+  .infoLight {
+    background: url("./media/full-frame-shot-program-codes-screen_1048944-18050516.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .infoDark {
+    background: url("./media/5065792.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.animate-wiggle {
+  animation: upDown 1s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+@keyframes upDown {
+  from {
+    opacity: 0;
+    transform: translate(0, 150px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.moveToRight {
+  animation: moveRight 1.5s;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.animateContact {
+  animation: moveRightt 1.5s;
+}
+@keyframes moveRight {
+  from {
+    opacity: 0;
+    transform: translate(-100px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@keyframes moveRightt {
+  0% {
+    transform: translate(-200px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.projectItem {
+  animation: leftToRight linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+@keyframes leftToRight {
+  from {
+    opacity: 0;
+    transform: translate(-100px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}

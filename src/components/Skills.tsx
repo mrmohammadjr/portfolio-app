@@ -65,7 +65,7 @@ const Skills = () => {
       <p className="font-bold lg:text-3xl md:text-md sm:text-sm my-10">Get to know my skills</p>
       <div className="w-full grid lg:grid-cols-4 sm:grid-cols-2 place-items-center mt-12">
         {skill.slice(0,8).map((item:Hardskills)=>(
-          <div key={item?.id} className={`lg:w-[60%] flex flex-col items-center p-5 rounded-3xl ${theme === "light" ? "bg-[#d1d1d1] text-black" : "bg-[#252525] text-white"} lg:m-0 sm:m-4 animate-wiggle`}>
+          <div key={item?.id} className={`lg:w-[60%] md:w-[50%] flex flex-col items-center p-5 rounded-3xl ${theme === "light" ? "bg-[#858585] text-black" : "bg-[#252525] text-white"} lg:m-0 sm:m-4 animate-wiggle`}>
           <img src={item?.icon} className="w-1/2 lg:my-5 sm:my-2" />
             <h1 className="lg:my-5 sm:my-2 lg:text-2xl sm:text-xl source">{item?.title}</h1>
             <h1 className={`${theme === "light" ? "bg-[#FDFFFC] text-black" : "bg-[#161616] text-white"} p-3 rounded-2xl`}>{item?.mastery} %</h1>

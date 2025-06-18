@@ -31,10 +31,10 @@ const Info: React.FC<Props> = ({ setItem }) => {
           className="source 3xl:text-7xl lg:text-[2.6rem] sm:text-[1.5rem] font-bold 3xl:text-left lg:text-left md:text-left sm:text-center"
         />
         <div className="lg:w-[100%] md:w-[50%] sm:w-full flex lg:justify-start md:justify-start sm:justify-center lg:gap-44 md:gap-24 sm:gap-12 md:pl-0 sm:pl-0 font-bold lg:text-xl">
-          <h1 onClick={()=> setItem("contacts")} className={`${theme === "light" ? "bg-[#161616] text-white hover:bg-black hover:text-white" : "bg-[#FDFFFC] text-black hover:bg-white hover:text-black"} transition delay-150 duration-300 ease-in-out rounded-2xl p-2 3xl:text-5xl `}>Contact Me  <i 
+          <h1 onClick={()=> setItem("contacts")} className={`${theme === "light" ? "bg-[#161616] text-white hover:bg-white hover:text-black" : "bg-[#FDFFFC] text-black hover:bg-black hover:text-white"} transition delay-150 cursor-pointer duration-300 ease-in-out rounded-2xl p-2 3xl:text-5xl `}>Contact Me  <i 
           className={`pi pi-arrow-up-right`} 
         ></i></h1>
-          <a href="https://drive.google.com/file/d/1NhFFk_eyOePB3Sr1YjrxI3p6sfrU-SBO/view?usp=drive_link" className={`${theme === "light" ? "bg-[#161616] text-white hover:bg-black hover:text-white" : "bg-[#FDFFFC] text-black hover:bg-white hover:text-black"} transition delay-150 duration-300 ease-in-out rounded-2xl p-2 3xl:text-5xl `} download >My CV <i 
+          <a href="https://drive.google.com/file/d/1NhFFk_eyOePB3Sr1YjrxI3p6sfrU-SBO/view?usp=drive_link" className={`${theme === "light" ? "bg-[#161616] text-white hover:bg-white hover:text-black" : "bg-[#FDFFFC] text-black hover:bg-black hover:text-white"} transition delay-150 duration-300 ease-in-out rounded-2xl p-2 3xl:text-5xl `} download >My CV <i 
           className={`pi pi-download`}
         ></i></a>
         </div>

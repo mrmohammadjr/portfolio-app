@@ -57,13 +57,13 @@ const Projects = () => {
           <div className="flex flex-col items-center lg:my-0 sm:my-6">
             <div
               className={`flex justify-center py-5 w-[70%] group border-4 relative z-0 rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300 hover:border-0 ${
-                theme === "light" ? "border-[#4c4c4c]" : "border-[#e8e8e8]"
+                theme === "light" ? "border-[#4c4c4c] bg-gray-500" : "border-[#e8e8e8]"
               }`}
             >
               <img
                 src={item?.poster}
                 alt="فیلم 1"
-                className="lg:w-[12rem] lg:h-[12rem] md:w-[100%] sm:w-[6rem] "
+                className="lg:w-[12rem] lg:h-[12rem] md:w-[40%] sm:w-[6rem] "
               />
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-all duration-300 flex items-center justify-center gap-5">
                 <a

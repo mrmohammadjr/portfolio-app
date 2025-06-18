@@ -32,7 +32,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
   .infoLight {
     background: url("./media/full-frame-shot-program-codes-screen_1048944-18050516.jpg");
     background-size: cover;

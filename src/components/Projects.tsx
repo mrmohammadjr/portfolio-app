@@ -24,7 +24,7 @@ const Projects = () => {
       gitHublink: "https://github.com/mrmohammadjr/mh-gpt",
       poster: AI,
       description:
-        "An AI chat , developed with REACT JS and TYPESCRIPT libraries , using using REDUXTOOLKIT to store global data, TAILWIND CSS for UI styles and using Groq SDK ai model and react-i18 for translate",
+        "An AI chat , developed with REACT JS and TYPESCRIPT libraries , using REDUXTOOLKIT to store global data, TAILWIND CSS for UI styles and using Groq SDK ai model and react-i18 for translate",
     },
     {
       id: 2,

@@ -14,10 +14,10 @@ function App() {
   const [item,setItem] = useState<string>("")
   useEffect(() => {
       if(item === "home") window.scrollTo(0, 0);
-      else if(item === "about") window.scrollTo(0, 400);
-      else if(item === "skills") window.scrollTo(0, 1700);
-      else if(item === "projects") window.scrollTo(0, 3000);
-      else if(item === "contacts") window.scrollTo(0, 4000);
+      else if(item === "about") window.scrollTo(0, 650);
+      else if(item === "skills") window.scrollTo(0, 1600);
+      else if(item === "projects") window.scrollTo(0, 2600);
+      else if(item === "contacts") window.scrollTo(0, 3300);
       setItem("")
   }, [item])
   

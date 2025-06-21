@@ -13,10 +13,10 @@ const Header: React.FC<Props> = ({ setItem }) => {
         <img onClick={()=> setItem("home")} src={Logo} className={`w-1/12 ${theme === "light" ? "border-none" :"border-2 border-white"}`} />
       </div>
       <div className="flex justify-center w-auto gap-11 font-bold text-2xl">
-        <h1 onClick={()=> setItem("about")}>about</h1>
-        <h1 onClick={()=> setItem("skills")}>skills</h1>
-        <h1 onClick={()=> setItem("projects")}>projects</h1>
-        <h1 onClick={()=> setItem("contacts")}>contacts</h1>
+        <h1 className="cursor-pointer" onClick={()=> setItem("about")}>about</h1>
+        <h1 className="cursor-pointer" onClick={()=> setItem("skills")}>skills</h1>
+        <h1 className="cursor-pointer" onClick={()=> setItem("projects")}>projects</h1>
+        <h1 className="cursor-pointer" onClick={()=> setItem("contacts")}>contacts</h1>
         <i onClick={toggleTheme} className={`pi ${theme === "light" ? "pi-sun" : "pi-moon"} text-2xl`}></i>
       </div>
     </div>
@@ -48,10 +48,10 @@ const SmallHeader: React.FC<Props> = ({ setItem }) => {
           className="backdrop-blur-sm transition delay-150 duration-1000 ease-in-out fixed inset-0 h-screen w-full z-50 p-3">
                 <i className={`pi pi-times text-2xl ${menu === true ? "block" : "hidden"}`} onClick={()=> setMenu((l)=> !l)}></i>
           <ul className={`${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-[rgb(102,102,102)]"} text-white pl-3 pt-3`}>
-            <li className={`my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("about")}>About</p></li>
-            <li className={`my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("skills")}>Skills</p></li>
-            <li className={`my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("projects")}>Projects</p></li>
-            <li className={`my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("contacts")}>Contacts</p></li>
+            <li className={`cursor-pointer my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("about")}>About</p></li>
+            <li className={`cursor-pointer my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("skills")}>Skills</p></li>
+            <li className={`cursor-pointer my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("projects")}>Projects</p></li>
+            <li className={`cursor-pointer my-4 border-l-4 ${theme === "light" ? "text-[rgb(102,102,102)] border-[#161616]" : "text-white border-white"}`}><p className="pl-2" onClick={()=> menuEvent("contacts")}>Contacts</p></li>
           </ul>
         </div>
       )}

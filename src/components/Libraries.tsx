@@ -28,7 +28,7 @@ const Libraries = () => {
   return (
     <div className=" flex justify-center gap-10 sm:my-3">
         {list.map((element, index) => (
-          <img key={element.id} src={element.poster} className="lg:w-14 md:w-20 sm:w-14" />
+          <img key={element.id} src={element.poster} className="lg:w-14 md:w-20 sm:w-10" />
         ))}
   </div>
   );

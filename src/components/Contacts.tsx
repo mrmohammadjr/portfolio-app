@@ -17,7 +17,7 @@ const Contacts = (props: Props) => {
                <a href="mailto:mr.mohammadjavadrasooli@gmail.com" className="">
                 <i className={`${theme === "light" ? "text-[#161616]" : "text-[#FDFFFC]"} pi pi-envelope lg:p-5 sm:p-3 lg:text-5xl sm:text-3xl cursor-pointer`}></i>
                </a>
-               <p className="">mr.mohammadjavadrasooli@gmail.com</p>
+               <p className="sm:text-sm">mr.mohammadjavadrasooli@gmail.com</p>
             </div>
             <div className={`flex items-center rounded-full transition delay-150 duration-300 ease-in-out w-full ${theme === "light" ? "text-[#FDFFFC] hover:text-[#161616]" : "text-[#161616] hover:text-[#FDFFFC]"} px-5 `}>
                <a href="https://www.linkedin.com/in/mohammad-javad-rasooli-282505260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="">

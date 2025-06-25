@@ -58,7 +58,7 @@ const Footer: React.FC<Props> = ({ setItem }) => {
           ></i>
         </a>
       </div>
-      <div className="flex justify-start items-center mt-5">
+      <div className="lg:flex lg:justify-start lg:items-center sm:grid sm:grid-cols-1 mt-5">
         <h1 className=" lg:mt-0 mr-5 sm:mt-6 lg:text-2xl sm:text-2xl font-bold">
           Made With
         </h1>

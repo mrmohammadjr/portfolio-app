@@ -32,8 +32,13 @@ body {
 }
 .animate-wiggle {
   animation: upDown 1s;
-  animation-timeline: view();
-  animation-range: entry 0% cover 50%;
+}
+
+@supports (animation-timeline: view()) {
+  .animate-wiggle {
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+  }
 }
 @keyframes upDown {
   from {

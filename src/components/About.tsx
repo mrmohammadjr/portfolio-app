@@ -11,7 +11,7 @@ const About: React.FC<Props> = ({ setItem }) => {
     <div className={`about ${theme === "light" ? "bg-[#FDFFFC] text-black" : "bg-[#161616] text-white"} lg:py-20 sm:py-16 flex flex-col items-center frank`}>
       <h1 className={`lg:text-[3rem] sm:text-[1.5rem] border-b-2 ${theme === "light" ? "border-black" :"border-white"} font-bold text-center`}>About Me</h1>
         <img src={Photo} className="w-1/2 my-10 rounded-full lg:hidden md:hidden sm:block transition-all duration-200 border-4 border-gray-500 hover:border-0 " />
-        <p className="w-[80%]  lg:mt-16 sm:mt-12 font-light text-gray-500 lg:text-2xl sm:text-sm tracking-widest moveToRight">I'm Mohammad Javad, a <span className={`font-bold ${theme === "light" ? "text-black" : "text-white"}`}>front-end developer</span> with two years of hands-on experience in the field. My expertise lies in designing and implementing engaging user interfaces as well as optimizing user experience.
+        <p className="w-[80%]  lg:mt-16 sm:mt-12 font-light text-gray-500 lg:text-2xl sm:text-sm tracking-widest animation-timeline-[view()] animation-range-[entry_0%_cover_50%] moveToRight">I'm Mohammad Javad, a <span className={`font-bold ${theme === "light" ? "text-black" : "text-white"}`}>front-end developer</span> with two years of hands-on experience in the field. My expertise lies in designing and implementing engaging user interfaces as well as optimizing user experience.
 
 I'm very passionate about learning, and I constantly strive to deepen my knowledge and reach higher standards by studying documentation, watching educational videos, and gaining practical experience. My goal is to deliver projects that are technically excellent and offer users an enjoyable experience.
 

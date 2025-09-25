@@ -1,7 +1,7 @@
 import React, { useState, use } from "react";
 import { ThemeContext, ThemeProvider } from "../context/ThemeContext";
 import OnlineStore from "../media/food-price-barometer-which-supermarkets-are-cheapest.jpeg";
-import MovieBox from "../media/itunes-movies-130813.jpg";
+import MovieBox from "../media/icons/movie.png";
 import AI from "../media/icons/New Project.png"
 import Store from "../media/icons/store.png"
 import { MdOutlineLocalGroceryStore } from "react-icons/md";

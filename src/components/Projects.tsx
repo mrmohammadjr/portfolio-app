@@ -35,6 +35,15 @@ const Projects = () => {
       description:
         "An online store for buying goods, developed with REACT JS and TYPESCRIPT libraries, using REDUXTOOLKIT to store global data, TAILWIND CSS for UI styles and using PLATZI API",
     },
+    {
+      id: 3,
+      title: "Movie Box",
+      link: "https://movie-box-mh.vercel.app/",
+      gitHublink: "https://github.com/mrmohammadjr/movie-box",
+      poster: MovieBox,
+      description:
+        "movie & tv app , developed by NEXT JS and TYPESCRIPT libraries , using GSAP for aniamtion ,PRISMA ORM for connect to DataBase , SUPABASE for save data , NEXTAUTH V5 for authentication and TMDB api",
+    },
   ];
 
   return (

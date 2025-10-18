@@ -38,7 +38,7 @@ const Projects = () => {
     {
       id: 3,
       title: "Movie Box",
-      link: "https://movie-box-mh.vercel.app/",
+      link: "https://movie-box-rosy.vercel.app/",
       gitHublink: "https://github.com/mrmohammadjr/movie-box",
       poster: MovieBox,
       description:

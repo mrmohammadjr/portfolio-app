@@ -1,7 +1,7 @@
 import React, { useState, use } from "react";
 import { ThemeContext, ThemeProvider } from "../context/ThemeContext";
 import OnlineStore from "../media/food-price-barometer-which-supermarkets-are-cheapest.jpeg";
-import MovieBox from "../media/icons/movie.png";
+import CFile from "../media/pngwing.com.png";
 import AI from "../media/icons/New Project.png"
 import Store from "../media/icons/store.png"
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
@@ -37,12 +37,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Movie Box",
-      link: "https://movie-box-rosy.vercel.app/",
-      gitHublink: "https://github.com/mrmohammadjr/movie-box",
-      poster: MovieBox,
+      title: "C - File",
+      link: "https://c-file-mh.vercel.app/",
+      gitHublink: "https://github.com/mrmohammadjr/c-file",
+      poster: CFile,
       description:
-        "movie & tv app , developed by NEXT JS and TYPESCRIPT libraries , using GSAP for aniamtion ,PRISMA ORM for connect to DataBase , SUPABASE for save data , NEXTAUTH V5 for authentication and TMDB api",
+        "Convert File App, developed with REACT JS and TYPESCRIPT libraries,TAILWIND CSS for UI styles and using FILE CONVERSION API",
     },
   ];
 

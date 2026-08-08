@@ -15,6 +15,7 @@ interface ProjectsType {
   poster: string
   description: string;
 }
+
 const Projects = () => {
   const { theme, toggleTheme } = use(ThemeContext);
 

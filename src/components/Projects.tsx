@@ -4,6 +4,8 @@ import OnlineStore from "../media/food-price-barometer-which-supermarkets-are-ch
 import CFile from "../media/pngwing.com.png";
 import AI from "../media/icons/New Project.png"
 import Store from "../media/icons/store.png"
+import Cyrus from "../media/tomb-of-cyrus-the-great.webp";
+import BTC from "../media/Bitcoin-Logo.webp";
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 interface ProjectsType {
   id: number;
@@ -13,10 +15,11 @@ interface ProjectsType {
   poster: string
   description: string;
 }
+
 const Projects = () => {
   const { theme, toggleTheme } = use(ThemeContext);
 
-  const projects: ProjectsType[] = [
+   const projects: ProjectsType[] = [
     {
       id: 1,
       title: "MH-GPT",
@@ -43,6 +46,24 @@ const Projects = () => {
       poster: CFile,
       description:
         "Convert File App, developed with REACT JS and TYPESCRIPT libraries,TAILWIND CSS for UI styles and using FILE CONVERSION API",
+    },
+    {
+      id: 4,
+      title: "Cyrus the great",
+      link: "https://cyrus-the-great.javadrma-2017.workers.dev/",
+      gitHublink: "https://github.com/mrmohammadjr/cyrus-the-great",
+      poster: Cyrus,
+      description:
+        "a web app about Cyurs the great , developed with REACT JS and TYPESCRIPT libraries,TAILWIND CSS for UI styles and using GSAP for Animation",
+    },
+    {
+      id: 5,
+      title: "MH - Crypto",
+      link: "https://mh-crypto.vercel.app/",
+      gitHublink: "https://github.com/mrmohammadjr/mh-crypto",
+      poster: BTC,
+      description:
+        "....",
     },
   ];
 
